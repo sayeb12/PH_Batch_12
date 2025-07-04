@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <link rel="shortcut icon" href="CSS ICON.png" type="image/x-icon">
+
+    <style>
+        #prodhan {
+            color: blue;
+            font-size: 24px;
+            font-family: 'Arial', sans-serif;
+        }
+        /* p {
+            color: green;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+        } */
+        .culprit {
+            color: red;
+            
+        }
+        .bold {
+            font-weight: bold;
+        }
+
+        h3 {
+            color: darkblue;
+            font-size: 22px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        #dhor, .mar {
+            color: darkgreen;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .mar {
+            background-color: lightyellow;
+        }
+
+        * {
+            /* margin: 0;
+            padding: 0;
+            box-sizing: border-box; */
+        }
+        input{
+            color:red;
+        }
+
+        input[type="text"] {
+            background-color: lightblue;
+            color: darkblue;
+            border: 2px solid darkblue;
+            padding: 5px;
+            font-size: 16px;
+        }
+        .select {
+            color: green;
+            font-weight: bold;
+        }
+        .div1 {
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        #shudhu\ tumi {
+            color: darkred;
+            font-size: 18px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="prodhan">Explore Mixed <span class="select">Selectors</span></h2>
+    <p>I am number one</p>
+    <p class="culprit">I am number two</p>
+    <p>I am number three</p>
+    <p class="culprit bold">I am number four</p>
+    <p>I am number five</p>
+
+    <h3>Types Of Selector</h3>
+    <ol>
+        <li>Id Selector</li>
+        <li> Element Selector</li>
+        <li id="dhor" class="mar">Class Selector</li>
+        <li class="mar">Universal Selector</li>
+    </ol>
+
+    <form>
+        <input type="text" name="" id="">
+        <input type="password" name="" id="">
+    </form>
+
+    <div class="div1">
+        
+    <h4>My website with CSS</h4>
+    <p id="shudhu tumi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem magnam itaque, exercitationem eos sapiente! Accusamus fuga aspernatur ex eum deleniti ipsam eius eaque, itaque, quam cumque sequi, praesentium aliquid?</p>
+    
+    </div>
+</body>
+</html>
